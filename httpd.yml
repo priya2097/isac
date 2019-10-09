@@ -1,0 +1,8 @@
+---
+- name: installing the packages
+  hosts: all
+  tasks:
+   - name: installing the packages
+     yum:
+       name: docker
+       state: present
